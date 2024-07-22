@@ -1,0 +1,65 @@
+body{
+    max-width:1200px;
+    font-family: poppinsregular;
+    margin:0 auto;
+    padding:15px;
+}
+
+header{
+    display:flex;
+    font-family: DMC;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color:black;
+}
+a:hover{
+    color:red;
+    transition: 0.6;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    margin-top:100px;
+}
+h2{
+    font-family: poppinsmedium;
+    font-size: 35px;
+    max-width: 500px;
+}
+
+spam{
+    color:rgb(255,140,0);
+}
+#p2{
+    margin-top: -20px;
+    max-width: 500px;
+    
+}
+#p1{
+    margin-bottom: -20px; 
+    font-family: poppinsmedium;   
+    font-weight: 700;
+}
+button{
+    background-color:rgb(191, 89, 0);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    padding:15px 44px;
+    font-family: poppinsmedium;  
+    font-weight: 700; 
+}
+button:hover{
+    background-color:red;
+    color:white;
+    transition: 0.6s all;
+}
